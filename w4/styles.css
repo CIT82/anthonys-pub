@@ -1,0 +1,57 @@
+* {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  }
+  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    height: 120px;
+    font-size: 1.2rem;
+    background-color: beige;
+    text-align: center; 
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    padding-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figure img {
+    border: 3px solid black;
+}
+
+hr {
+    margin: 10px;
+    border-top: 3px dashed black;
+    width: 95%;
+}
+
+.list {
+    width: 100%;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
