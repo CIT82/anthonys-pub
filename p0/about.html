@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Active Bootstrap Template</title>
-  <meta name="description" content="The sitemap page of our website, providing an organized structure of all pages for easy navigation." />
-  <meta name="keywords" content="sitemap, website navigation, site structure, site map, website pages" />
-  
+  <title>About - Active Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/controller.webp" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -37,9 +36,9 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="about-page">
 
-  <header id="header" class="header d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
@@ -51,9 +50,9 @@
       <nav id="navmenu" class="navmenu d-flex justify-content-center w-100">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="gamelist.html" class="active">Game list</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gamelist.html">Game list</a></li>
+          <li><a href="about.html" class="active">about</a></li>
+          <li><a href="contact.html">contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -63,45 +62,60 @@
 
   <main class="main">
 
-    <section>   
-        <ul>
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <h1>About</h1>
+        <nav class="breadcrumbs">
+          <ol>
             <li><a href="index.html">Home</a></li>
-                <ul>
-                    <li><a href="game1.html">Game 1</a></li>
-                    <li><a href="game2.html">Game 2</a></li>
-                    <li><a href="game3.html">Game 3</a></li>
-                    <li><a href="game4.html">Game 4</a></li>
-                    <li><a href="game5.html">Game 5</a></li>
-                    <li><a href="game6.html">Game 6</a></li>
-                    <li><a href="game7.html">Game 7</a></li>
-                    <li><a href="game8.html">Game 8</a></li>
-                    <li><a href="game9.html">Game 9</a></li>
-                    <li><a href="game10.html">Game 10</a></li>
+            <li class="current">About</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
 
-                </ul>
-            </li>
-        </ul>
-    </section>
-    
-  
-</main>
+    <!-- About 2 Section -->
+    <section id="about-2" class="about-2 section">
 
+      <div class="container">
+        <div class="content">
+          <div class="px-3">
+                <hr>
+                <h2 class="content-title text-start">
+                  Why was this page created?
+                </h2>
+                <p class="lead">
+                  This page was created to help introduce people to a variety of new and old games that are currently on the 
+                  market. Whether you're a seasoned gamer or new to the world of video games, this page aims to provide valuable insights and recommendations. 
+                  From timeless classics to the latest releases, we aim to cover a wide range of genres, ensuring there's something for everyone. Explore, discover, 
+                  and enjoy the diverse world of gaming!
+                </p>
+                <p class="mb-5">
+                  .
+                </p>
+                <hr>
+                <p>
+                  <a href="gamelist.html" class="btn-get-started">Get Started</a>
+                </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 2 Section -->
+
+   
+  </main>
   <footer id="footer" class="footer light-background">
 
         
-
-      <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-        </div>
+    <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
